@@ -1,0 +1,19 @@
+// GLOBAL
+@import "Global/global";
+@import "Global/Typography/typography";
+
+// HEADER
+@import "Header/Colors/colors";
+@import "Header/Template/template";
+
+//FORM
+@import "Cadastro/Forms/Colors/colors";
+@import "Cadastro/Forms/Template/template";
+
+// Inicio
+@import "./Index/Inicio/Colors/colors";
+@import "./Index/Inicio/Template/template";
+ 
+
+// TABLE
+@import "Table/table"

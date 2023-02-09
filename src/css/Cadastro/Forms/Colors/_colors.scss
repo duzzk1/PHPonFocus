@@ -1,0 +1,64 @@
+body {
+  background: rgb(65, 133, 223);
+  background: linear-gradient(180deg, #2fd366 5%, #50e4bf 20%, #50e4bf 60%, #2fd366 95%);
+  width: 100vw;
+  height: 90vh;
+}
+
+
+.cadastro form .input__Pessoa,
+.cadastro form .input__Maquina {
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.cadastro form .input__Pessoa:hover{
+  animation: corInput 4s infinite alternate ease-in-out;
+
+}
+.cadastro form .input__Maquina:hover{
+  animation: corInput 4s infinite alternate ease-in-out;
+
+}
+.cadastro form input {
+  border-radius: 6px;
+  border: 1px solid rgba($color: #9999, $alpha: 1);
+}
+
+button[type="submit"]{
+  background-color: rgba($color: #007924, $alpha: 0.3);
+  color: white;
+
+}
+
+button[type="submit"]:hover{
+  background-color: rgba($color: #39bdb6, $alpha: 0.7);
+  transition: 0.7s;
+}
+
+svg {
+
+  filter: blur(24px);
+  
+}
+
+
+@keyframes corInput {
+  0%{
+    background: rgba(255, 255, 255, 0.35);
+  }
+  50%{
+    background: rgba(207, 142, 245, 0.35);
+
+  }
+  100%{
+    background: rgba(248, 255, 148, 0.35);
+
+  }
+
+}

@@ -1,0 +1,81 @@
+.cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 10vh); // 10vh do header
+}
+
+.cadastro form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  position: relative;
+}
+
+.cadastro form .input__Pessoa,
+.cadastro form .input__Maquina {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 250px;
+  min-height: 500px;
+  gap: 12px;
+  z-index: 1;
+}
+
+.cadastro form .input__Pessoa {
+  padding: 50px 15px;
+
+}
+
+.cadastro form .input__Maquina {
+  padding: 50px 15px;
+  display: flex;
+}
+
+.cadastro form h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 30px;
+}
+
+.cadastro form input {
+  border-radius: 6px;
+  outline: none;
+  text-align: center;
+  padding: 4px;
+}
+
+.cadastro form select{
+  border-radius: 6px;
+  outline: none;
+  text-align: center;
+  padding: 2px;
+  
+}
+
+.cadastro form input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.cadastro form input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+button[type="submit"]{
+  width: 112px;
+  height: 36px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 24px;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
