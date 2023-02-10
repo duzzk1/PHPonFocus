@@ -6,3 +6,4 @@
 
 $conn = new MySQLi(HOST, USER, PASS, BASE);
 
+$pdo = new PDO('mysql:host=localhost;dbname=maquinas','root','');
